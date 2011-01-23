@@ -35,6 +35,7 @@
 ""
 
 hi clear
+let g:colors_name = "c64"
 
 
 command! -nargs=* HiC64 :call <SID>HiC64(<f-args>)

@@ -1,5 +1,6 @@
 hi clear
 set background=dark
+let g:colors_name = "nightplastic"
 
 hi SpecialKey     guifg=grey42 guibg=bg
 hi NonText        gui=bold guifg=MediumTurquoise guibg=black

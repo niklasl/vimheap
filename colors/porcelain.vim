@@ -1,5 +1,6 @@
 hi clear
 set background=light
+let g:colors_name = "porcelain"
 
 hi SpecialKey     guifg=#CFCFCF guibg=#F0F0F0
 hi NonText        gui=bold guifg=orchid4 guibg=#9B9B9B

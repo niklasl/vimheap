@@ -1,5 +1,6 @@
 hi clear
 set background=light
+let g:colors_name = "plasticwhite"
 
 hi SpecialKey     guifg=#D7D7D7 guibg=#F9F9F9
 hi NonText        gui=bold guifg=#1C7976 guibg=#ECECEC
