@@ -7,13 +7,13 @@ hi NonText        gui=bold guifg=#1C7976 guibg=#ECECEC
 hi Directory      guifg=#0B4543 guibg=#FFFFFF
 hi ErrorMsg       guifg=#E41055 guibg=#FFFFFF
 hi IncSearch      gui=reverse guifg=#550586 guibg=#FFFFFF
-hi Search         guifg=#008063 guibg=#FFFFFF
+hi Search         guibg=#0DFFC5
 hi MoreMsg        gui=bold guifg=#00CE5B guibg=#FFFFFF
 hi ModeMsg        gui=bold,reverse guifg=#550586 guibg=#FFFFFF
 hi LineNr         gui=bold guifg=#747474 guibg=#E2E2E2
 hi Question       gui=bold guifg=#00CE5B guibg=#FFFFFF
-hi StatusLine     gui=bold,reverse guifg=#686868 guibg=#E9E9E9
-hi StatusLineNC   gui=reverse guifg=#373737 guibg=#FFFFFF
+hi StatusLine     gui=bold,reverse guifg=#373737 guibg=#FFFFFF
+hi StatusLineNC   gui=reverse guifg=#686868 guibg=#E9E9E9
 hi VertSplit      gui=reverse guifg=#373737 guibg=#FFFFFF
 hi Title          gui=bold guifg=Magenta
 hi Visual         guibg=slategray1
@@ -39,31 +39,31 @@ hi PmenuThumb     gui=reverse
 hi TabLine        gui=underline guibg=#FFFFFF
 hi TabLineSel     gui=bold
 hi TabLineFill    gui=reverse
-hi CursorColumn   guibg=#FFFFFF
-hi CursorLine     guibg=#FFFFFF
-hi ColorColumn    guibg=#FFFFFF
-hi Cursor         guifg=bg guibg=#00DBDB
+hi CursorColumn   guibg=#EBEBEB
+hi CursorLine     guibg=#EFEFEF
+hi ColorColumn    guibg=#C2FAC2
+hi Cursor         guifg=#FFFFFF guibg=#00B1B1
 hi lCursor        guifg=#5C5C5C guibg=#FFFFFF
 hi MatchParen     guibg=#FFFFFF
-hi Normal         gui=bold guifg=#385D53 guibg=#FFFFFF
+hi Normal         gui=bold guifg=#000000 guibg=#FFFFFF
 hi Comment        guifg=#B18D8B
-hi Constant       guifg=#008451 guibg=#FFFFFF
+hi Constant       gui=bold guifg=#008474 guibg=#FFFFFF
 hi Special        gui=bold guifg=#0C6F36
-hi Identifier     guifg=#810AB2 guibg=#FFFFFF
+hi Identifier     gui=bold guifg=#7200B5 guibg=#FFFFFF
 hi Statement      gui=bold guifg=#3800DB guibg=#FFFFFF
-hi PreProc        guifg=#01B8C4
+hi PreProc        gui=bold guifg=#8D0018
 hi Type           gui=bold guifg=#BA02A8 guibg=#FFFFFF
 hi Underlined     gui=underline guifg=#454845 guibg=#FFFFFF
 hi Ignore         guifg=#484444 guibg=#FFFFFF
 hi Error          guifg=#305047 guibg=#FFFFFF
 hi Todo           gui=bold,reverse guifg=#348135 guibg=#FFFFFF
-hi String         guifg=#006F6F guibg=#FFFFFF
+hi String         gui=bold guifg=#001295 guibg=#ffffff
 hi Number         guifg=#007C80 guibg=#F7F7F7
 hi Boolean        gui=bold guifg=#007C80 guibg=#FFFFFF
 hi Conditional    gui=bold guifg=#23761C guibg=#FFFFFF
 hi Repeat         gui=bold guifg=#005141 guibg=#FFFFFF
 hi Operator       guifg=#3E8000 guibg=#FFFFFF
 hi Keyword        gui=bold guifg=#6A0A2E guibg=#FFFFFF
-hi Exception      gui=bold guifg=#23DA23 guibg=#FFFFFF
+hi Exception      gui=bold guifg=#23AD7C guibg=#FFFFFF
 hi CursorIM       gui=bold guifg=#BCBCBC guibg=#FFFFFF
 
