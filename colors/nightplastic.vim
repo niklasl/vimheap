@@ -41,7 +41,7 @@ hi TabLineSel     gui=bold
 hi TabLineFill    gui=reverse
 hi CursorColumn   guibg=#202020
 hi CursorLine     guibg=#141414
-hi ColorColumn    guibg=DarkRed
+hi ColorColumn    guibg=#39005F
 hi Cursor         gui=reverse guifg=#F8F8F8 guibg=#454545
 hi lCursor        guifg=bg guibg=fg
 hi MatchParen     guibg=#005151
