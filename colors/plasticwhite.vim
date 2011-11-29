@@ -20,7 +20,7 @@ hi Visual         guibg=slategray1
 hi VisualNOS      gui=bold,underline guifg=#385D53 guibg=#FFFFFF
 hi WarningMsg     gui=bold guifg=#E40101 guibg=#FFFFFF
 hi WildMenu       gui=bold guifg=#000000 guibg=#FFFFFF
-hi Folded         gui=bold guifg=#42FF42 guibg=#FFFFFF
+hi Folded         gui=bold,underline guifg=#32AA32 guibg=#D2F2E0
 hi FoldColumn     gui=bold guifg=#008080 guibg=#FFFFFF
 hi DiffAdd        guifg=#01BCBC guibg=#FFFFFF
 hi DiffChange     guifg=#01BCBC guibg=#FFFFFF
@@ -44,9 +44,9 @@ hi CursorLine     guibg=#EFEFEF
 hi ColorColumn    guibg=#C2FAC2
 hi Cursor         guifg=#FFFFFF guibg=#00B1B1
 hi lCursor        guifg=#5C5C5C guibg=#FFFFFF
-hi MatchParen     guibg=#FFFFFF
+hi MatchParen     guibg=#CCCCCC
 hi Normal         gui=bold guifg=#000000 guibg=#FFFFFF
-hi Comment        guifg=#B18D8B
+hi Comment        gui=italic guifg=#B18D8B
 hi Constant       gui=bold guifg=#008474 guibg=#FFFFFF
 hi Special        gui=bold guifg=#0C6F36
 hi Identifier     gui=bold guifg=#7200B5 guibg=#FFFFFF
@@ -62,8 +62,8 @@ hi Number         guifg=#007C80 guibg=#F7F7F7
 hi Boolean        gui=bold guifg=#007C80 guibg=#FFFFFF
 hi Conditional    gui=bold guifg=#23761C guibg=#FFFFFF
 hi Repeat         gui=bold guifg=#005141 guibg=#FFFFFF
-hi Operator       guifg=#3E8000 guibg=#FFFFFF
+hi Operator       gui=bold guifg=#801100 guibg=#FFFFFF
 hi Keyword        gui=bold guifg=#6A0A2E guibg=#FFFFFF
-hi Exception      gui=bold guifg=#23AD7C guibg=#FFFFFF
+hi Exception      gui=bold guifg=#1FA170 guibg=#FFFFFF
 hi CursorIM       gui=bold guifg=#BCBCBC guibg=#FFFFFF
 

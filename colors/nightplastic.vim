@@ -10,7 +10,7 @@ hi IncSearch      gui=reverse guifg=purple guibg=Cyan1
 hi Search         guifg=#00FFC4 guibg=#5A0091
 hi MoreMsg        gui=bold guifg=SeaGreen1 guibg=bg
 hi ModeMsg        gui=bold,reverse guifg=purple guibg=white
-hi LineNr         gui=bold guifg=#333333 guibg=#010101
+hi LineNr         gui=bold guifg=#4e333e guibg=#010101
 hi Question       gui=bold guifg=SeaGreen1 guibg=bg
 hi StatusLine     gui=bold,reverse guifg=white guibg=grey16
 hi StatusLineNC   gui=reverse guifg=grey48 guibg=black
@@ -46,7 +46,7 @@ hi Cursor         gui=reverse guifg=#F8F8F8 guibg=#454545
 hi lCursor        guifg=bg guibg=fg
 hi MatchParen     guibg=#005151
 hi Normal         gui=bold guifg=#6ea7a5 guibg=#0b0009
-hi Comment        guifg=#3D5A3D
+hi Comment        gui=italic guifg=#3D5A3D
 hi Constant       guifg=#04FF9F guibg=#17002b
 hi Special        gui=bold guifg=#20E073
 hi Identifier     guifg=#C14EF4 guibg=#13001C
