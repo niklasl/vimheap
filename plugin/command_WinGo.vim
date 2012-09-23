@@ -1,7 +1,7 @@
 "---------------------------------------------------"
 " Vim script: command_WinGo.vim                     "
 " About: Goes to window whose name resembles arg    "
-" Author:   Niklas Lindström <neuron@canit.se>      "
+" Author:   Niklas LindstrÃ¶m <neuron@canit.se>      "
 "---------------------------------------------------"
 
 " NOTE: isn't really needed when combining switchbuf=useopen (,split); use

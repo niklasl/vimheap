@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer: Niklas Lindström <lindstream@gmail.com>
+" Maintainer: Niklas LindstrÃ¶m <lindstream@gmail.com>
 " Last Change: 2004-05-05
 " Version: 0.1
 " URL: http://

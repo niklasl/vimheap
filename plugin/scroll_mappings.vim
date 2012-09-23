@@ -1,7 +1,7 @@
 "---------------------------------------------------"
 " Vim script: scroll_mappings.vim                   "
 " About:                                            "
-" Author:   Niklas Lindström <neuron@canit.se>      "
+" Author:   Niklas LindstrÃ¶m <neuron@canit.se>      "
 "---------------------------------------------------"
 
 

@@ -1,7 +1,7 @@
 "---------------------------------------------------"
 " Vim script: command_SetEncoding.vim               "
 " About:                                            "
-" Author: Niklas Lindström <nlm@valtech.se>         "
+" Author: Niklas LindstrÃ¶m <nlm@valtech.se>         "
 "---------------------------------------------------"
 
 

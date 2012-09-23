@@ -1,6 +1,6 @@
 " Vim filetype plugin for HTML
 " Language: HTML
-"Maintainer: Niklas Lindström
+"Maintainer: Niklas LindstrÃ¶m
 " Last Change: 2001-12-13
 
 "==== indent settings ====

@@ -1,6 +1,6 @@
 "------------------------------------------------"
 " Mappings for simplified fold handling          "
-" Author: Niklas Lindström <neuron@diatribe.nu>  "
+" Author: Niklas LindstrÃ¶m <neuron@diatribe.nu>  "
 "------------------------------------------------"
 
 

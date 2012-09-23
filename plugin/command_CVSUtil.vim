@@ -1,7 +1,7 @@
 "---------------------------------------------------"
 " Vim script: command_CVSUtil.vim                   "
 " About:                                            "
-" Author: Niklas Lindström <lindstream@gmail.com>   "
+" Author: Niklas LindstrÃ¶m <lindstream@gmail.com>   "
 "---------------------------------------------------"
 
 

@@ -1,6 +1,6 @@
 "-----------------------------------------------"
 " Window Move From/To for Vim                   "
-" Author: Niklas Lindström <nlm@valtech.se>     "
+" Author: Niklas LindstrÃ¶m <nlm@valtech.se>     "
 "-----------------------------------------------"
 
 

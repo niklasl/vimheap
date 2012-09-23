@@ -2,7 +2,7 @@
 " Vim script: command_WinSearch.vim                 "
 " About:    Echoes window name containing matches   "
 "           of search pattern                       "
-" Author:   Niklas Lindström <neuron@neverspace.net>"
+" Author:   Niklas LindstrÃ¶m <neuron@neverspace.net>"
 "---------------------------------------------------"
 
 " TODO: use SearchInBuffers.vim (:SIB) or code thereof

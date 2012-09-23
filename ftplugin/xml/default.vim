@@ -1,6 +1,6 @@
 " Vim filetype plugin for XML
 " Language: XML
-"Maintainer: Niklas Lindström
+"Maintainer: Niklas LindstrÃ¶m
 " Last Change: 2003-05-01
 
 " TODO:

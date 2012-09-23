@@ -1,6 +1,6 @@
 " Vim colorscheme
 "
-" Maintainer: Niklas Lindström <lindstream@gmail.com>
+" Maintainer: Niklas LindstrÃ¶m <lindstream@gmail.com>
 " Last Change: 2007-11-26
 " Version: 1.1
 " URL: http://www.vim.org/scripts/script.php?script_id=328

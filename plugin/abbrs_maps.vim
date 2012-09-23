@@ -1,10 +1,10 @@
 "-------------------------------------------------------"
 " Simple Abbreviations, Mappings, Commands for Vim      "
-" Author: Niklas Lindström <lindstream@gmail.com>       "
+" Author: Niklas LindstrÃ¶m <lindstream@gmail.com>       "
 "-------------------------------------------------------"
 
 " define special key for <Leader> mappings (default is '\')
-"let mapleader = '§'
+"let mapleader = 'Â§'
 " FIXME: seems broken; works sometimes when used interactively..
 
 " ---- for normal mode ----

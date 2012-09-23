@@ -1,6 +1,6 @@
 "---------------------------------------------------"
 " Window Movement Mappings for Vim                  "
-" Author: Niklas Lindström <lindstream@gmail.com>   "
+" Author: Niklas LindstrÃ¶m <lindstream@gmail.com>   "
 "---------------------------------------------------"
 
 " NOTE: Fixes annoying limit in Vim arrow movement (h and l works fine)

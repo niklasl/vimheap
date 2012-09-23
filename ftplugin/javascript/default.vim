@@ -1,6 +1,6 @@
 " Vim filetype plugin for JavaScript
 " Language: JavaScript/ECMAScript
-" Author: Niklas Lindström <mailto:lindstream@gmail.com>
+" Author: Niklas LindstrÃ¶m <mailto:lindstream@gmail.com>
 " Last Change: 2005-04-21
 
 exec "set dictionary+=".expand("<sfile>:h:h:h")."/dictionaries/DOM.txt"

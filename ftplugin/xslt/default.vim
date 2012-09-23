@@ -1,6 +1,6 @@
 " Vim filetype plugin for XSLT
 " Language: XSLT
-"Maintainer: Niklas Lindström
+"Maintainer: Niklas LindstrÃ¶m
 " Last Change: 2003-05-01
 
 " Re-use html ftplugin(s)
