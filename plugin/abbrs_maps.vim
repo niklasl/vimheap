@@ -18,6 +18,9 @@ inoremap ^<CR> <Left><Right><ESC>O<ESC><Down>o<ESC><Up>A
 " give a custom <tag > an endtag one line below:
 inoremap ^/ <ESC>T<yt>o</<ESC>pF<EylD"0pa>
 
+" close the last tag on the line, wrapping eventual following text
+inoremap ^> :s/.*<\([^ ]\+\)[^>]*>.*/&<\/\1>/ \| noh \| A
+
 " open or close quickfix window
 "nnoremap <F3> :botright cwindow<CR>
 nnoremap <F3> :if &buftype == "quickfix"<Bar>cclose<Bar>else<Bar>botright copen<Bar>endif<CR>

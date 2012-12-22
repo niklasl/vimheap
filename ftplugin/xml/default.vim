@@ -32,7 +32,7 @@ compiler xmllint
 inoremap <buffer> ^/ <ESC>T<yt>o</<ESC>pF<EylD"0pa>
 
 " close the last tag on the line, wrapping eventual following text
-inoremap ^> :s/.*<\([^ ]\+\)[^>]*>.*/&<\/\1>/ \| noh \| A
+inoremap <buffer> ^> :s/.*<\([^ ]\+\)[^>]*>.*/&<\/\1>/ \| noh \| A
 
 
 " element wrapper
