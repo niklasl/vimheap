@@ -97,6 +97,12 @@ abbrev fbak__IABBREV <c-r>=expand("%:t:r")."-bak".strftime("%y%m%d").".".expand(
 abbrev fbak2__IABBREV <c-r>=expand("%:t:r")."-bak_".strftime("%y%m%d_%H%M").".".expand("%:e")<nl>
 abbrev start__IABBREV start<c-r>=strftime("%y%m%d")<CR>
 
+abbrev sess__IABBREV <C-R>=substitute(v:this_session, '\V'.expand("~"), '\~', '')<CR>
+
+" Replace home path with ~ on current line
+"map <Leader>hp :s#<C-R>=expand("~")<CR>#\~#
+noremap <Leader>hp :call setline(".", substitute(getline("."), '\V'.expand("~"), '\~', ''))<CR>
+
 " replace allbackslashes on current line with slashes (mad mapping)
 ia slall__IABBREV <BS><Esc>:s#\\#/#g<CR>
 
