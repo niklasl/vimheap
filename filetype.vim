@@ -19,9 +19,6 @@ augroup filetypedetect
     " SPARQL Query Syntax
     au! BufNewFile,BufRead *.rq,*.sparql  setfiletype sparql
 
-    " RDF Notation 3 Syntax
-    au! BufNewFile,BufRead *.n3,*.ttl  set filetype=n3
-
     " Relax NG Compact Syntax
     au! BufRead,BufNewFile *.rnc  setfiletype rnc
 
