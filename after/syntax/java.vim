@@ -37,3 +37,6 @@ setlocal foldmethod=syntax
 
 syn keyword javaSpecial val
 
+" Fix javaError for lambdas in Java 8
+syn clear javaError
+syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|\*\/"
