@@ -17,7 +17,8 @@
 
 func! s:Relocate(bang, path, ...)
     let nameexp = (a:0 > 0)? a:1 : "%:t"
-    if expand("%") != "" && !filereadable(expand("%"))
+    let curpath = expand("%")
+    if curpath != "" && !filereadable(curpath)
         let found = findfile(expand(nameexp), a:path)
         if found == ""
             return
@@ -31,6 +32,7 @@ func! s:Relocate(bang, path, ...)
         endif
         exec (version >= 600? "saveas! " : "edit ") . found
         wincmd w
+        exec "b " . curpath
         if a:bang == "!"
             bd
         else

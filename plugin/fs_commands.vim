@@ -7,10 +7,10 @@
 
 
 func! RenameTo(newfpath)
-    let curfpath = expand("%")
+    let curfpath = fnameescape(expand("%"))
     let newfpath = a:newfpath
     if fnamemodify(a:newfpath, ":p:h") == getcwd()
-      let newfpath = expand("%:p:h") ."/". newfpath
+      let newfpath = fnameescape(expand("%:p:h") ."/". newfpath)
     endif
     if (!filereadable(newfpath))
         let dirpath = fnamemodify(newfpath, ":p:h")
@@ -41,24 +41,25 @@ command! E edit %:p:h
 command! SP split %:p:h
 
 
-func! OpenCWD(bang)
-    if has("gui_running") || a:bang == "!"
-        if has("mac") && has("unix")
-            !open %:p:h
+func! OpenCWD(force)
+    if has("gui_running") || a:force
+        "if has("mac") && has("unix")
+        if executable("open")
+            !open "%:p:h"
         elseif executable("konqueror") " has('gui_kde')
-            !konqueror %:p:h &
+            !konqueror "%:p:h" &
         elseif executable("nautilus") " has('gui_gtk')
-            !nautilus %:p:h &
+            !nautilus "%:p:h" &
         elseif has("win32")
             let s:stored_shellslash = &shellslash
             set noshellslash
-            !start explorer.exe %:p:h
+            !start explorer.exe "%:p:h"
             let &shellslash = s:stored_shellslash
         endif
     endif
 endfunc
 
-command! -bang OpenCWD silent call OpenCWD("<bang>")
+command! -bang OpenCWD silent call OpenCWD(<bang>0)
 
 
 func! Terminal()
