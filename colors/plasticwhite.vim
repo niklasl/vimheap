@@ -3,9 +3,9 @@ set background=light
 let g:colors_name = "plasticwhite"
 
 hi SpecialKey     guifg=#D7D7D7 guibg=#F9F9F9
-hi NonText        gui=bold guifg=#1C7976 guibg=#ECECEC
+hi NonText        gui=bold guifg=#747474 guibg=#ECECEC
 hi Directory      guifg=#0B4543 guibg=#FFFFFF
-hi ErrorMsg       guifg=#E41055 guibg=#FFFFFF
+hi ErrorMsg       gui=reverse,bold guifg=#E41055 guibg=#FFFFFF
 hi IncSearch      gui=reverse guifg=#550586 guibg=#FFFFFF
 hi Search         guibg=#0DFFC5
 hi MoreMsg        gui=bold guifg=#00CE5B guibg=#FFFFFF
@@ -21,12 +21,13 @@ hi VisualNOS      gui=bold,underline guifg=#385D53 guibg=#FFFFFF
 hi WarningMsg     gui=bold guifg=#E40101 guibg=#FFFFFF
 hi WildMenu       gui=bold guifg=#000000 guibg=#FFFFFF
 hi Folded         gui=bold,underline guifg=#32AA32 guibg=#D2F2E0
-hi FoldColumn     gui=bold guifg=#008080 guibg=#FFFFFF
+"hi FoldColumn     gui=bold guifg=#008080 guibg=#C2C2C2
+hi FoldColumn     gui=bold guifg=#32AA32 guibg=#D2F2E0
 hi DiffAdd        guifg=#01BCBC guibg=#FFFFFF
 hi DiffChange     guifg=#01BCBC guibg=#FFFFFF
 hi DiffDelete     gui=bold guifg=#01BCBC guibg=#FFFFFF
 hi DiffText       gui=bold guifg=#385D53 guibg=#FFFFFF
-hi SignColumn     guifg=#01BCBC guibg=#FFFFFF
+hi SignColumn     guifg=#01BCBC guibg=#D2D2D2
 hi Conceal        guifg=#909090 guibg=#FFFFFF
 hi SpellBad       gui=undercurl guisp=Red
 hi SpellCap       gui=undercurl guisp=Blue

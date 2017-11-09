@@ -159,7 +159,7 @@ if exists('g:hi_c64_boot') && g:hi_c64_boot == 1
 endif
 
 
-HiC64 Normal lightblue black NONE
+HiC64 Normal lightgrey black NONE
 HiC64 NonText green darkgrey NONE
 HiC64 LineNr black darkgrey NONE
 HiC64 StatusLine black white italic
@@ -174,6 +174,7 @@ HiC64 Search NONE NONE inverse
 HiC64 SpecialKey blue NONE NONE
 HiC64 VertSplit NONE grey NONE
 HiC64 Visual NONE blue NONE
+HiC64 ColorColumn NONE brown NONE
 
 "Directory
 "ErrorMsg

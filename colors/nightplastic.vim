@@ -3,7 +3,7 @@ set background=dark
 let g:colors_name = "nightplastic"
 
 hi SpecialKey     guifg=grey42 guibg=bg
-hi NonText        gui=bold guifg=MediumTurquoise guibg=black
+hi NonText        gui=bold guifg=#553344 guibg=black
 hi Directory      guifg=LightSeaGreen guibg=bg
 hi ErrorMsg       guifg=LightYellow guibg=FireBrick
 hi IncSearch      gui=reverse guifg=purple guibg=Cyan1
