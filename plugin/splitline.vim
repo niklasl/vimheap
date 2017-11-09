@@ -6,7 +6,7 @@ if !exists("g:splitline_enabled")
   let g:splitline_enabled = 0
 endif
 
-func! b:ReprLineBelow()
+func! ReprLineBelow()
   let linenr = line("w$") + 1
   "let nrrepr = repeat(' ', &number * max([len(string(line("$"))), &numberwidth]) + 1)
   " TODO: odd vim bug: one leading space is chomped? See also bugadjust below.
@@ -22,21 +22,26 @@ func! b:ReprLineBelow()
   return nrrepr . getline(linenr)
 endfunc
 
-func! s:Splitline(bang)
+func! Splitline(bang)
+  au! WinEnter * Splitline
   if a:bang == "!"
     let g:splitline_enabled = !g:splitline_enabled
   endif
+  " save default statusline
   if !g:splitline_enabled
-    setl statusline=
+    if exists("b:statusline")
+      let &l:statusline=b:statusline
+    endif
     return
   endif
   if bufnr("%") == winbufnr((winnr() + 1))
-    setl statusline=%#Folded#%{b:ReprLineBelow()}
+    if !exists("b:statusline")
+        let b:statusline = &l:statusline
+    endif
+    setl statusline=%#Folded#%{ReprLineBelow()}
   else
-    setl statusline=
+    let &l:statusline=b:statusline
   endif
 endfunc
 
-command! -nargs=0 -bang Splitline call <SID>Splitline("<bang>")
-
-au! WinEnter * Splitline
+command! -nargs=0 -bang Splitline call Splitline("<bang>")
